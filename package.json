@@ -17,6 +17,7 @@
     "@distube/soundcloud": "^2.0.4",
     "@distube/spotify": "^2.0.2",
     "@distube/ytdl-core": "^4.16.5",
+    "axios": "^1.8.4",
     "discord-api-types": "^0.37.119",
     "discord-player": "^6.7.1",
     "discord-player-youtubei": "^1.4.2",

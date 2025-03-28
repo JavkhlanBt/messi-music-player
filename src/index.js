@@ -14,3 +14,13 @@ setupPlayerEvents(client.player);
 client.on("messageCreate", handleMessage);
 
 client.login(process.env.TOKEN);
+
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get("/", (req, res) => {
+  res.send("Discord bot is running!");
+});
+
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
